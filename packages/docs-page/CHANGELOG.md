@@ -1,5 +1,11 @@
 # @hashicorp/react-docs-page
 
+## 14.5.0
+
+### Minor Changes
+
+- [#390](https://github.com/hashicorp/react-components/pull/390) [`57e5b21`](https://github.com/hashicorp/react-components/commit/57e5b21aa0b4f62ea0e9a41e0a74fd6ae5f986b6) Thanks [@BRKalow](https://github.com/BRKalow)! - Refactor docs page server-side code to use a new loaders pattern. Updates the existing generateStatic\* functions to use the FileLoader under the hood, while marking them as deprecated.
+
 ## 14.4.5
 
 ### Patch Changes
